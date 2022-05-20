@@ -3,6 +3,7 @@ const {
   getItemController,
   addItemController,
   editItemController,
+  deleteItemController,
 } = require("./../controllers/itemController");
 
 const router = express.Router();
@@ -16,5 +17,8 @@ router.post("/add-item", addItemController);
 
 //method - PUT
 router.put("/edit-item", editItemController);
+
+//method - DELETE
+router.post("/delete-item", deleteItemController);
 
 module.exports = router;
