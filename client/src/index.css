@@ -23,3 +23,54 @@ body {
   height: 100px;
   width: 100px;
 }
+
+.category {
+  border: 2px solid gray;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.category img {
+  margin-left: 10px;
+}
+
+.category-active {
+  border: 2px solid green;
+  background-color: rgba(128, 128, 128, 0.501);
+}
+
+/* ========= register page ================ */
+
+.register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register input {
+  width: 400px !important;
+}
+
+.regsiter-form {
+  background-color: rgba(98, 197, 251, 0.463);
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.regsiter-form h1 {
+  text-align: center;
+  background-color: rgb(2, 2, 75);
+  color: white;
+  padding: 10px;
+}
+
+.regsiter-form h3 {
+  color: rgb(4, 4, 113);
+  text-align: center;
+}

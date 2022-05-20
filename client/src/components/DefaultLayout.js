@@ -53,7 +53,14 @@ const DefaultLayout = ({ children }) => {
           <Menu.Item key="/customers" icon={<UserOutlined />}>
             <Link to="/customers">Cutomers</Link>
           </Menu.Item>
-          <Menu.Item key="/logout" icon={<LogoutOutlined />}>
+          <Menu.Item
+            key="/logout"
+            icon={<LogoutOutlined />}
+            onClick={() => {
+              localStorage.removeItem("auth");
+              navigate("/login");
+            }}
+          >
             Logout
           </Menu.Item>
         </Menu>
