@@ -1,0 +1,22 @@
+{
+  "name": "pos-mern",
+  "version": "1.0.0",
+  "description": "pos mern app",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "server":"nodemon server.js",
+    "seed": "node seeder.js"
+  },
+  "author": "techinfoyt",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "morgan": "^1.10.0"
+  }
+}
